@@ -1,0 +1,129 @@
+.topnav {
+  justify-content: center!important;
+  margin: 0;
+  background: floralwhite;
+  padding: 10px;
+  font-family: "Yu Gothic";
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: rgb(119, 150, 203);
+  color: black;
+}
+.topnav a.active {
+  background-color: rgb(119, 150, 203);
+  color: floralwhite;
+}
+#banner {
+  background-image: url(images/oreo-side-banner.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+  text-align: center;
+  height: 570px;
+}
+h1  {
+  margin: 70px 150px 0px 150px;
+  color: floralwhite;
+  text-shadow: 2px 2px black;
+  font-size: 70px;
+  font-family: "Yu Gothic";
+}
+h2  {
+  margin: 20px 150px 30px 150px;
+  color: floralwhite;
+  text-shadow: 2px 2px black;
+  font-size: 45px;
+  font-family: "Yu Gothic";
+}
+
+#products {
+  background-color: rgb(119, 150, 203);
+  padding: 40px 30px 80px 30px;
+  text-align: center;
+ }
+.card {
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  padding: 10px;
+  margin: 50px;
+  height: 10rem;
+  vertical-align: middle;
+}
+.card-img-top {
+  height: 138px;
+  border: 3px solid floralwhite;
+  border-radius: 6px;
+}
+h4 {
+  font-size: 20px;
+  font-family: "Yu Gothic";
+  color: floralwhite;
+  display: inline;
+  padding: 20px;
+}
+
+#order {
+  background-color: floralwhite;
+}
+#order h3 {
+  color: rgb(119, 150, 203);
+}
+iframe {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  height: 1600px;
+}
+
+#footer {
+  background-color: rgba(119, 150, 203, 0.5);
+  padding: 20px;
+}
+#boton-pedido {
+  border: solid;
+  border-color: rgb(119, 150, 203);
+  border-radius: 30px;
+  padding: 10px;
+  background: rgba(255, 250, 240, 0.8);
+  font-family: "Yu Gothic";
+  text-align: center;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.2);
+  align-items: center;
+}
+ul {
+  display: table;
+  margin: 0 auto;
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  display: inline-block;
+  padding: 20px;
+  text-align: center;
+}
+a {
+  color: rgb(119, 150, 203);
+  font-size: 30px;
+  text-align: center;
+}
+a:hover {
+  color: floralwhite;
+}
+a:link {
+  text-decoration: none;
+}
+h3 {
+  font-size: 30px;
+  font-family: "Yu Gothic";
+  color: floralwhite;
+  padding: 20px;
+  text-align: center;
+}
